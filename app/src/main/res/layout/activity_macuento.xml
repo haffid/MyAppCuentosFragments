@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MACuento">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btnFrag1"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:background="@drawable/ic_c1"
+            android:layout_margin="1sp"
+            android:onClick="onClink"
+            />
+        <Button
+            android:id="@+id/btnFrag2"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:background="@drawable/ic_c2"
+            android:layout_margin="1sp"
+            android:onClick="onClink"
+            />
+        <Button
+            android:id="@+id/btnFrag3"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:background="@drawable/ic_c3"
+            android:layout_margin="1sp"
+            android:onClick="onClink"
+            />
+        <Button
+            android:id="@+id/btnFrag4"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:background="@drawable/ic_c4"
+            android:layout_margin="1sp"
+            android:onClick="onClink"
+            />
+        <Button
+            android:id="@+id/btnFrag5"
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:background="@drawable/ic_c5"
+            android:layout_margin="1sp"
+            android:onClick="onClink"
+            />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/contenedorID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        />
+
+</LinearLayout>
